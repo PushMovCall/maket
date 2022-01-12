@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.section-one {
+    height: 100vh;
+    background-image: url("pictures/Шапка.png");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(45, 204, 112);
+    position: relative;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    height: 80px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .navbar_item {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .navbar_item_active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(45, 204, 112); /*(45, 204, 112)*/
+    text-transform: none;
+  }
+  
+  .navbar_item:hover {
+    background-color: rgb(71, 240, 141);
+  }
+
+  .section-one article {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+
+  .navbar_logo{
+    color: #ffffff;
+    font-size: 2rem;
+  }
+
+  .section-one__list{
+    position: absolute;
+    display: grid;
+    left: 15%;
+    top: 25%;
+  }
+
+  .references{
+    margin-top: 50px;
+  }
+  .references .ref2{
+    margin-left: 10px;
+  }
+
+  .section-one__text{
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 400px;
+  }  
+  
+    .section-one__title {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      position: relative;
+      font-size: 2.2rem;
+      text-align: left;
+    }
+  
+    .section-one__discription {
+      max-width: 400px;
+      font-size: 1.2rem;
+      }
+
+/*==========section_two==========*/
+  .section-two{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+  .section-two__picture{
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    max-height: 90%;
+  }
+  .picture_contol{
+    left: 20%;
+    display: flex;
+    position: absolute;
+    top: 12%;
+  }
+
+  .section-two__title-color{
+    color: rgb(71, 240, 141);
+    }
+    .section-two__text{
+      margin-top: 100px;
+      flex-direction: column;
+      display: flex;
+      position: absolute;
+      color: rgb(134, 134, 134);
+      text-align: left;
+      left: 60%;
+      top: 25%;
+      max-width: 400px;
+    }
+  
+    .section-two__title {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      position: relative;
+      font-size: 2.2rem;
+      text-align: left;
+    }
+  
+    .section-two__discription {
+      max-width: 400px;
+      font-size: 1.2rem;
+      }
+
+  .section-three{
+    height: 100vh;
+    background-image: url("pictures/Смартфоны.png");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(249, 249, 249);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-three__title-color{
+  color: rgb(71, 240, 141);
+  }
+  .section-three__text{
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: rgb(134, 134, 134);
+  }
+
+  .section-three__title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 2.2rem;
+  }
+
+  .section-three__discription {
+    max-width: 800px;
+    font-size: 1.2rem;
+    text-align: center;
+    }
+
+  .section-four{
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+
+  .section-four__title-color{
+    color: rgb(71, 240, 141);
+    }
+    .section-four__text{
+      flex-direction: column;
+      display: flex;
+      position: absolute;
+      color: rgb(134, 134, 134);
+      text-align: left;
+      left: 25%;
+      top: 35%;
+      max-width: 400px;
+    }
+  
+    .section-four__title {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      position: relative;
+      font-size: 2.2rem;
+      text-align: left;
+    }
+  
+    .section-four__discription {
+      max-width: 800px;
+      font-size: 1.2rem;
+      }
+
+      .container{
+        display: flex;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgb(238, 238, 238);
+        width: 350px;
+        height: 75px;
+        margin-bottom: 20px;
+      }
+      .container .container_discription h1{
+        color: rgb(71, 240, 141) ;
+      }
+      .container .container_discription h3{
+        color: rgb(71, 240, 141) ;
+      }
+      .container .container_discription p{
+        color: rgb(134, 134, 134) ;
+      }
+
+      .container .sc4-img1{
+        max-width: 25%;
+        margin: 10px;
+      }
+   
+      .container .time{
+        text-align: right;
+        margin-left: 30px;
+        color:rgb(134, 134, 134);
+      }
+
+      .container2{
+        display: flex;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgb(238, 238, 238);
+        width: 390px;
+        height: 90px;
+        margin-bottom: 20px;
+      }
+      .container2 .container2_discription h1{
+        color: rgb(71, 240, 141) ;
+      }
+      .container2 .container2_discription h3{
+        color: rgb(71, 240, 141) ;
+      }
+      .container2 .container2_discription p{
+        color: rgb(134, 134, 134) ;
+      }
+
+      .container2 .sc4-img2{
+        max-width: 25%;
+        margin: 10px;
+      }
+    
+      .container2 .time2{
+        text-align: right;
+        margin-left: 60px;
+        color:rgb(134, 134, 134);
+      }
+      .container2 .time2 h1{
+        color: rgb(71, 240, 141);
+      }
+
+      .container3{
+        display: flex;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgb(238, 238, 238);
+        width: 350px;
+        height: 75px;
+      }
+      .container3 .container3_discription h1{
+        color: rgb(71, 240, 141) ;
+      }
+      .container3 .container3_discription h3{
+        color: rgb(71, 240, 141) ;
+      }
+      .container3 .container3_discription p{
+        color: rgb(134, 134, 134) ;
+      }
+
+      .container3 .sc4-img3{
+        max-width: 25%;
+        margin: 10px;
+      }
+    
+      .container3 .time3{
+        text-align: right;
+        margin-left: 30px;
+        color:rgb(134, 134, 134);
+      }
+      .container3 .time3 h1{
+        color: rgb(71, 240, 141);
+      }
+
+      .list4{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left:60%;
+        top: 30%;
+        padding: 10px;
+        align-items: center;
+      }
+
+
+  .section-five{
+    height: 44vh;
+    background-image: url("pictures/Низ.png");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(45, 204, 112);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .section-five__text{
+      margin-top: 40px;
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+    }
+  
+    .section-five__title {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      position: relative;
+      font-size: 2.2rem;
+      color: #fff;
+    }
+  
+    .section-five__discription {
+      max-width: 800px;
+      font-size: 1.2rem;
+      text-align: center;
+      color: #fff;
+    }
+
+    .section_five__nav_btn{
+      margin-top: 50px;
+    }
